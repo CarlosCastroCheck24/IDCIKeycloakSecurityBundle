@@ -10,7 +10,21 @@ For Symfony 7
 With composer:
 
 ```
-$ composer require idci/keycloak-security-bundle
+"require": {
+    ...
+    "idci/keycloak-security-bundle": "^dev-master",
+    ...
+},
+
+"repositories": [
+        ...
+        {
+            "type": "vcs",
+            "url": "git@github.com:CarlosCastroCheck24/IDCIKeycloakSecurityBundle.git"
+        }
+        ...
+    ],
+
 ```
 
 ## Configuration
